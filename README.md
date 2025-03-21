@@ -4,9 +4,10 @@
 The project aims to implement an ALU with 6 different operations. The final goal is to display results on the seven segment display of Basys3. Inputs would be provided through switches on Basys 3. 
 
 **Design:**
-I use SystemVerilog and Vivado for the design. There are three main modules:
+I use SystemVerilog and Vivado for the design. There are four main modules:
 
 - alu_wrapper -> encapsulates other modules.
+- alu_impl -> implements the ALU.
 - seg7_control -> logic to show results in binary on seven seg display.
 - 5hz_gen -> generate 5hz clock needed by seven seg display. 
 
